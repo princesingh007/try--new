@@ -1,12 +1,8 @@
 (function(){
   'use strict';
-  angular.module('MyfirstApp',[])
+  angular.module('myfirstApp',[])
   .controller('MyfirstController',function($scope){
     $scope.name="prince singh";
-    $scope.sayHello=function()
-    {
-      return "hello man";
-    };
   });
 
 })();
